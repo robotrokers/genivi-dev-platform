@@ -40,7 +40,8 @@ export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
  
 # Perform the actual build
-bitbake genivi-dev-platform
+bitbake core-image-minimal
+# TODO: bitbake genivi-dev-platform
 # TODO: bitbake genivi-dev-platform-sdk
 
 # DEBUG
