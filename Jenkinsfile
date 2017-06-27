@@ -6,12 +6,12 @@ pipeline {
     
   }
   stages {
-    stage('Checkout') {
-      steps {
-        echo 'Checkout stage'
-        git(url: 'https://github.com/GENIVI/genivi-dev-platform', branch: 'master', changelog: true)
-      }
-    }
+//    stage('Checkout') {
+//      steps {
+//        echo 'Checkout stage'
+//        git(url: 'https://github.com/GENIVI/genivi-dev-platform', branch: 'master', changelog: true)
+//      }
+//    }
     stage('Build') {
       steps {
         echo 'hello'
