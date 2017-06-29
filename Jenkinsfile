@@ -29,6 +29,7 @@ git config --global user.email "$(whoami)@$(hostname)"
 
 # Configure the build
 source init.sh raspberrypi3
+cp rokers-developer.conf developer.conf
 
 # Prevent error "Do not use Bitbake as root"
 [ $(whoami) = "root" ] && touch conf/sanity.conf
@@ -40,9 +41,10 @@ export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
  
 # Perform the actual build
-bitbake core-image-minimal
+# bitbake core-image-minimal
 # TODO: bitbake genivi-dev-platform
 # TODO: bitbake genivi-dev-platform-sdk
+bitbake rokers-image-base
 
 # DEBUG
 # ls -la tmp/
