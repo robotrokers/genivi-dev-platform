@@ -30,6 +30,7 @@ PV ?= "snapshot+${DATE}"
 
 IMAGE_INSTALL_append = " \
     busybox-udhcpc \
+    dhcp-server \
     hostapd \
 "
 
