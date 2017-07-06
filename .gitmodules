@@ -47,6 +47,4 @@
 [submodule "meta-ros"]
 	path = meta-ros
 	url = https://github.com/bmwcarit/meta-ros
-[submodule "openembedded-core"]
-	path = openembedded-core
-	url = git://git.openembedded.org/openembedded-core
+
