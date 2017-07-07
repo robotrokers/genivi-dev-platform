@@ -34,7 +34,7 @@ IMAGE_INSTALL_append = " \
     dhcp-server \
     hostapd \
     roslaunch \
-    rosserial \
+    rosserial-python \
 "
 
 # EOF
