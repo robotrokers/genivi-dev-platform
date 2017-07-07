@@ -55,3 +55,4 @@ To build:
     bitbake genivi-dev-platform
 
 Please see the README in meta-genivi-dev for further information.
+

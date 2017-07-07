@@ -33,6 +33,7 @@ IMAGE_INSTALL_append = " \
     busybox-udhcpc \
     dhcp-server \
     hostapd \
+    roslaunch \
 "
 
 # EOF
