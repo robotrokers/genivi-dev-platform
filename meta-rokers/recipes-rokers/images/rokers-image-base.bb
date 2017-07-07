@@ -28,6 +28,7 @@ EXTRA_USERS_PARAMS ?= "usermod -P ${ROOTPASSWORD} ${ROOTUSERNAME};"
 
 PV ?= "snapshot+${DATE}"
 
+# Please keep the entries sorted alphabetically
 IMAGE_INSTALL_append = " \
     busybox-udhcpc \
     dhcp-server \
