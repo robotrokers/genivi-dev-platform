@@ -41,6 +41,7 @@ IMAGE_INSTALL_append += " \
     python-smbus \
     roslaunch \
     rosserial \
+    rosserial-python \
     wireless-tools \
     wpa-supplicant \
 "
