@@ -1,8 +1,5 @@
 # rokers-image-base
 
-DISTRO_NAME = "Yocto Rokers Distro"
-DISTRO_VERSION = "0.0.1"
-
 IMAGE_INSTALL = "packagegroup-core-boot ${CORE_IMAGE_EXTRA_INSTALL}"
 
 EXTRA_IMAGE_FEATURES = "debug-tweaks"
