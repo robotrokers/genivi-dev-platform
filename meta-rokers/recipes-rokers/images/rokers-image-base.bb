@@ -40,6 +40,9 @@ IMAGE_INSTALL_append += " \
     linux-firmware-bcm43430 \
     packagegroup-ros-comm \
     python-smbus \
+    rosbridge-suite \
+    rosserial-client \
+    rosserial-msgs \
     roslaunch \
     rosserial \
     rosserial-python \
