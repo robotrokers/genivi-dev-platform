@@ -38,6 +38,7 @@ IMAGE_INSTALL_append += " \
     iptables \
     kernel-modules \
     linux-firmware-bcm43430 \
+    packagegroup-ros-comm \
     python-smbus \
     roslaunch \
     rosserial \
