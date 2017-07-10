@@ -34,6 +34,7 @@ IMAGE_INSTALL_append = " \
     dhcp-server \
     hostapd \
     kernel-modules \
+    wireless-tools \
 "
 
 # EOF
