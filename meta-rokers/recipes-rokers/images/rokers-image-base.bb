@@ -33,6 +33,10 @@ IMAGE_INSTALL_append = " \
     busybox-udhcpc \
     dhcp-server \
     hostapd \
+    packagegroup-ros-comm \
+    rosbridge-suite \
+    rosserial-client \
+    rosserial-msgs \
 "
 
 # EOF
