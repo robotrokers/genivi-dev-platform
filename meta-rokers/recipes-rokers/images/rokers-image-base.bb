@@ -33,8 +33,7 @@ IMAGE_INSTALL_append = " \
     busybox-udhcpc \
     dhcp-server \
     hostapd \
-    roslaunch \
-    rosserial-python \
+    packagegroup-ros-comm \
 "
 
 # EOF
