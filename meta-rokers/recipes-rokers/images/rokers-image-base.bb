@@ -34,6 +34,9 @@ IMAGE_INSTALL_append = " \
     dhcp-server \
     hostapd \
     packagegroup-ros-comm \
+    rosbridge-suite \
+    rosserial-client \
+    rosserial-msgs \
 "
 
 # EOF
