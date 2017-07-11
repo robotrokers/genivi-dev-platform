@@ -39,6 +39,7 @@ IMAGE_INSTALL_append += " \
     kernel-modules \
     linux-firmware-bcm43430 \
     python-smbus \
+    roslaunch \
     wireless-tools \
     wpa-supplicant \
 "
