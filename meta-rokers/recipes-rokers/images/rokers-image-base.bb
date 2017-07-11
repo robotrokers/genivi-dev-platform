@@ -29,12 +29,18 @@ EXTRA_USERS_PARAMS ?= "usermod -P ${ROOTPASSWORD} ${ROOTUSERNAME};"
 PV ?= "snapshot+${DATE}"
 
 # Please keep the entries sorted alphabetically
-IMAGE_INSTALL_append = " \
+IMAGE_INSTALL_append += " \
+    bluez5 \
     busybox-udhcpc \
     dhcp-server \
     hostapd \
+    i2c-tools \
+    iptables \
     kernel-modules \
+    linux-firmware-bcm43430 \
+    python-smbus \
     wireless-tools \
+    wpa-supplicant \
 "
 
 # EOF
