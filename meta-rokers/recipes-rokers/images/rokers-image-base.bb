@@ -38,7 +38,14 @@ IMAGE_INSTALL_append += " \
     iptables \
     kernel-modules \
     linux-firmware-bcm43430 \
+    packagegroup-ros-comm \
     python-smbus \
+    rosbridge-suite \
+    rosserial-client \
+    rosserial-msgs \
+    roslaunch \
+    rosserial \
+    rosserial-python \
     wireless-tools \
     wpa-supplicant \
 "

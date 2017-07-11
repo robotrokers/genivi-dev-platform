@@ -44,3 +44,7 @@
 [submodule "meta-linaro"]
 	path = meta-linaro
 	url = https://git.linaro.org/openembedded/meta-linaro.git
+[submodule "meta-ros"]
+	path = meta-ros
+	url = https://github.com/bmwcarit/meta-ros
+
