@@ -33,6 +33,7 @@ IMAGE_INSTALL_append += " \
     bluez5 \
     busybox-udhcpc \
     dhcp-server \
+    docker \
     hostapd \
     i2c-tools \
     iptables \
